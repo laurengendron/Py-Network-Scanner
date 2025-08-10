@@ -32,3 +32,4 @@ if __name__ == "__main__":
     print(f"Scanning {target_ip} from port {start_port} to port {end_port}...")
     scan_ports_multithread(target_ip, start_port, end_port)
     print("Scan complete.")
+
